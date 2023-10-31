@@ -1,0 +1,65 @@
+/* Write your CSS here */
+* {
+  text-align: center;
+  margin: 10px;
+}
+#root {
+  background-color: #ffd569;
+  margin: 0px;
+  height: 100vh;
+}
+.fruitCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.box {
+  text-align: center;
+}
+.twoFruitDiv {
+  display: flex;
+  justify-content: center;
+}
+.innerBox {
+  background-color: #fff;
+
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 7px;
+}
+.centerColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.mainHome {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  font-size: 50px;
+}
+button {
+  width: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  outline: none;
+}
